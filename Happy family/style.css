@@ -1,0 +1,160 @@
+*{
+    box-sizing: border box;
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;
+line-height: 1.5;
+color: #333;
+/* background:#a1c3ff ; */
+
+}
+.Lastname::after{
+    color: green;
+     cursor: pointer;
+}
+img{
+    max-width: 100%;
+}
+h1,
+h2{
+    margin-bottom: 15px;
+}
+ul{
+   list-style-type: none; 
+}
+
+.container{
+   max-width: 1100px; 
+   margin: 0% auto;
+   padding: 0 30px;
+}
+.navbar{
+    background: #07275f;
+    color: #fff;
+    height: 60px;
+}
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bold;
+
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+     
+}
+.navbar ul{
+ display: flex;
+}
+.navbar ul li{
+    margin-left: 20px;
+}
+.navbar a:hover{
+    color: lightblue;
+
+}
+.header{
+    /* background-color: #0151cc; */
+    color: #fff;
+    min-height: 400px;
+}
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header img{
+    max-width: 400px;
+
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+ /* .boxes .container{
+     display: flex;
+     justify-content: space-between;
+ }
+ .box{
+ flex:1 ;
+ background: #0a51cc;
+ color: #fff;
+ border-radius: 10px;
+ margin: 20px 10px;
+ box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+ padding: 15px 20px;
+} */
+#my-form{
+    padding: 2rem;
+    background: orange;
+}
+#my-form label{
+    display: block;
+}
+#my-form input[type='text']{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid arc;
+}
+#my-form input[type='email']{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid arc;
+}
+#my-form input[type='password']{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid arc;
+}
+.btn:hover{
+    background: greenyellow;
+    color: indianred;
+}
+.btn{
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+@media(max-width:768px) {
+    .header .container{
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+        /* display: block; */
+    }
+
+    .boxes .container{
+        display: block;
+        text-align: center;
+        
+    }
+
+
+
+}
